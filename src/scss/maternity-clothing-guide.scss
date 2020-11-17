@@ -1,0 +1,701 @@
+/*
+ * This is where you add your CSS.
+ */
+@font-face {
+    font-family: "HelveticaNeueW01-75Bold";
+    src: url("//assets.macysassets.com/dyn_img/fonts/3b303641-706e-4221-94c4-4fb491f4f8ef.woff2") format("woff2"),
+         url("//assets.macysassets.com/dyn_img/fonts/14ff6081-326d-4dae-b778-d7afa66166fc.woff") format("woff");
+}
+@font-face {
+    font-family: "HelveticaNeueW01-55Roma";
+    src: url("//assets.macysassets.com/dyn_img/fonts/b0868b4c-234e-47d3-bc59-41ab9de3c0db.woff2") format("woff2"),
+         url("//assets.macysassets.com/dyn_img/fonts/bcf54343-d033-41ee-bbd7-2b77df3fe7ba.woff") format("woff");
+}
+
+#campaign{
+	background-color:#eeeeee;
+}
+
+.dining-header{
+	background-color:white;
+	width:3000px;
+}
+
+/*INDEX IMAGES*/
+@media only screen and (min-width: 1025px){
+	.large-6 {
+    	width: 49.5%;
+	}	
+	.header-top-row{
+		width: 1200px;
+    	margin: 0 auto;
+	}
+}
+
+
+
+.ceg-content {
+    padding-top: 10px;
+    margin-bottom: 43px;
+	margin: 0 auto;
+	width: 1200px;
+	background:white;
+	padding-left:5%; 
+	padding-right:5%;   
+}
+
+.ceg-content a {
+    text-transform: none;
+}
+.ceg-content h1,
+.ceg-content h2,
+.ceg-content h4 {
+    font-family: "HelveticaNeueW01-75Bold", Arial, sans-serif;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    margin: 20px 0 16px;
+    /*font-weight: lighter;*/
+}
+
+  
+.ceg-content h2,
+.ceg-content h4 {
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.ceg-content h4 {
+    text-align: left;
+    padding: 35px 0;
+    margin: 0;
+}
+.ceg-content h5{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.ceg-content p,
+.ceg-ol li {
+    font-family: "HelveticaNeueW01-55Roma", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+.ceg-content p strong,
+.ceg-ol li strong {
+    font-family: "HelveticaNeueW01-75Bold", Arial, sans-serif;
+    font-weight: normal;
+}
+.ceg-ol {
+    list-style-position: inside;
+    margin-bottom: 64px;
+}
+.ceg-ol li {
+    margin-bottom: 27px;
+}
+.ceg-ol li:last-of-type {
+    margin-bottom: 0;
+}
+.ce-text-ul {
+    margin: 0 0 16px 30px;
+    font-family: "HelveticaNeueW01-55Roma", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+}
+.ce-text-ul strong {
+    font-family: "HelveticaNeueW01-75Bold", Arial, sans-serif;
+}
+.ce-text-ul li {
+    padding-left: 8px;
+}
+.ceg-content .button {
+    display: block;
+    border: 1px solid #333333;
+    background: white;
+    color: #333333;
+    width: 382px;
+    margin: 0 auto 32px;
+}
+
+/* shop now button */
+a.ceg-cta.button {
+    text-transform: uppercase;
+    width: 226px;
+    margin-bottom: 55px;
+    font-family: "HelveticaNeueW01-55Roma", Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* BREADCRUMBS */
+.ceg-breadcrumbs {
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 18px;
+    float: left;
+    padding-bottom:20px;
+}
+.ceg-breadcrumbs a {
+    text-decoration: none;
+}
+.ceg-breadcrumbs strong,
+.ceg-101 .ceg-crumb-root {
+    font-family: "HelveticaNeueW01-75Bold", Arial, sans-serif;
+}
+.ceg-101 .ceg-breadcrumbs span{
+    display: none;
+}
+
+/* SHARE */
+ul.ceg-share-icons {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    /*margin: 14px 0 0;*/
+    padding: 0;
+    padding-top: 16px;
+}
+ul.ceg-share-icons>li {
+    margin-left: 16px;
+}
+
+/* MENU */
+.ceg-menu a {
+    color: #333333;
+    text-decoration: none;
+}
+.ceg-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.ceg-menu li {
+    line-height: 1.4;
+    margin-top: 41px;
+}
+.ceg-menu-header {
+    background-color: #eee;
+    color: #333;
+    padding: 12px 0;
+    position: relative;
+    cursor: pointer;
+    width: 1200px;
+    margin: 0 auto;
+}
+.ceg-menu-header span {
+    display: block;
+    /*font-family: "HelveticaNeueW01-55Roma", Arial, sans-serif;*/
+    font-size: 18px;
+    line-height: 1em;
+    letter-spacing: .6px;
+    /*text-align: center;*/
+    color: #333333;
+    margin-left: 20px;
+    font-weight: 600;
+}
+.ceg-menu-header-plus-minus {
+    background: url(//assets.macysassets.com/dyn_img/creativepages/dining_menu_sprite_1525369520962.png) no-repeat;
+    position: absolute;
+    z-index: 2;
+    right: 13px;
+    top: 12px;
+    width: 17px;
+    height: 17px;
+    color: #333333;
+}
+.ceg-menu.expanded .ceg-menu-header-plus-minus {
+    background-position-x: -17px;
+}
+.ceg-menu-content {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 2;
+    background: rgba(255, 255, 255, 0.95);
+    font-family: "HelveticaNeueW01-55Roma", Arial, sans-serif;
+    font-size: 18px;
+    width: 100%;
+    height: auto;
+}
+.ceg-menu-content span {
+    display: block;
+    color: #666666;
+    font-weight: bold;
+}
+.ceg-menu-content-left {
+    float: left;
+    margin: 55px 0 80px;
+    padding: 0 0 0 9%;
+    width: 50%;
+}
+.ceg-menu-content-right {
+    float: right;
+    margin: 55px 0 80px;
+    padding: 0;
+    width: 50%;
+}
+a.ceg-menu-back-to-main {
+    display: inline-block;
+    color: #666666;
+    margin-top: 393px;
+}
+.ceg-menu.expanded .ceg-menu-content {
+    display: block;
+}
+
+.menu-top-margin{
+    margin-top:100px;
+}
+
+/* HERO */
+.ceg-hero {
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.ceg-hero-text p {
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 43px;
+}
+
+/*MIGHT ALSO LIKE PANEL*/
+.ceg-might-also{
+	width:1200px;
+    margin-top: 20px;
+}
+
+.ceg-might-also img{
+    width: 95%;
+}
+
+.ceg-might-also img(n+2) {
+  margin-left:10px;
+}
+
+  /*---------------------*/
+ /*  IMAGE/TEXT PANELS  */
+/*---------------------*/
+
+.ceg-image-text {
+    margin-bottom: 24px;
+}
+.ceg-image-text ul {
+    margin: 0 0 8px 30px;
+    font-family: "HelveticaNeueW01-55Roma", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+.ceg-image-text ul strong {
+    font-family: "HelveticaNeueW01-75Bold", Arial, sans-serif;
+}
+.ceg-image-text  li {
+    padding-left: 8px;
+}
+.ceg-image-link img,
+.ceg-image-text img {
+    margin-bottom: 16px;
+}
+.ceg-image-link p,
+.ceg-image-text p {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.ceg-image-link a p {
+    text-decoration: underline;
+    text-align: center;
+    min-height: 55px;
+    margin: 0;
+    font-weight: bolder;
+}
+.ceg-links a {
+    color: #000000;
+    line-height: 28px;
+}
+.ceg-tip {
+    margin-bottom: 18px;
+}
+.ceg-tip p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid #cccccc;
+    padding: 16px 9%;
+    margin: 0;
+}
+
+.bullet-list{
+    margin-left:30px;
+    font-size: 18px;
+}
+
+.number-list{
+    margin-left:30px;    
+}
+
+.dining-bold{
+    text-align: center;
+    font-weight: 900;
+}
+
+.tablecloth-table th{
+    background-color: #EEEEEE;
+}
+
+.tablecloth-table tr{
+    height:50px;
+}
+
+.tablecloth-table td{
+    padding-left:50px;
+}
+
+/*
+ * Table properties Maternity hub
+ */
+
+ .maternity-table thead {
+    font-weight: bold;
+ }
+
+ .maternity-table tr{
+    height:50px;
+}
+
+.maternity-table td{
+    width: 50%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+/* ADJUSTMENTS */
+
+.ceg-w582.button {
+    width: 582px;
+}
+.ceg-t35 {
+    padding-top: 35px;
+}
+.ceg-b16 {
+    margin-bottom: 16px;
+}
+.ceg-b24 {
+    margin-bottom: 24px;
+}
+.ceg-b32 {
+    margin-bottom: 32px;
+}
+.ceg-b58 {
+    margin-bottom: 58px;
+}
+.ceg-b64 {
+    margin-bottom: 64px;
+}
+
+.ceg-101 h4 {
+    padding-top: 19px;
+}
+
+.gym-bag-list{
+    line-height: 2em;
+    margin-left:60px;
+    margin-bottom: 45px;   
+}
+
+.gym-bag-list li{
+    margin-bottom: 10px;
+}
+
+h2.yoga-sub{
+    font-size: 24px !important;
+}
+
+
+  /*---------------------*/
+ /*       MOBILE        */
+/*---------------------*/
+
+@media only screen and (min-width: 1024px) and (max-width: 1024px){
+    .ceg-content{
+        width:auto;
+    }
+    .header-top-row{
+        width: auto;
+    }  
+    .ceg-menu-header {
+        width: auto;
+    } 
+/*    .ceg-hero {
+    width: 1024px;
+    }*/     
+}
+
+@media only screen and (max-width: 1023px) {
+    .ceg-content {
+        padding: 0;
+        margin: 0 0 10vw;
+        width: 100%;
+    }
+    .ceg-content h1,
+    .ceg-content h2,
+    .ceg-content h4 {
+        font-size: 6.5vw;
+        line-height: 8vw;
+        margin: 0 0 6vw;
+        font-weight: bolder;
+    }
+    .ceg-content h2,
+    .ceg-content h4 {
+        font-size: 5vw;
+        line-height: 5.9vw;
+    }
+    .ceg-content h4 {
+        text-align: center;
+        padding: 9vw 0 7vw;
+    }
+    .ceg-content p,
+    .ceg-ol li {
+        font-size: 4.4vw;
+        line-height: 6.6vw;
+    }
+    .ceg-ol {
+        margin-bottom: 13vw;
+    }
+    .ceg-ol li {
+        margin-bottom: 5vw;
+    }
+    .ce-text-ul {
+        margin: 0 0 3vw 6vw;
+        font-size: 4.4vw;
+        line-height: 6.6vw;
+    }
+    .ce-text-ul li {
+        padding-left: 1.6vw;
+    }
+    .ceg-content .button {
+        width: 75vw;
+        margin: 10vw auto 15vw;
+    }
+
+    /* shop now button */
+    a.ceg-cta.button {
+        width: 70vw;
+        margin-bottom: 15vw;
+    }
+   
+    /* BREADCRUMBS */
+    .ceg-breadcrumbs {
+	    font-size: 3.8vw;
+	    line-height: 6vw;
+	    padding-top: 7vw;
+	    margin-bottom: 2vw;
+	    /* text-align: center; */
+	    float: none;
+	    width: 57%;
+	    margin-left: 5vw;
+    }
+    
+    /* SHARE */
+    ul.ceg-share-icons {
+        margin: 0 0 7vw;
+        justify-content: center;
+    }
+    ul.ceg-share-icons>li {
+        margin: 0 2.5vw;
+    }
+    ul.ceg-share-icons img {
+        height: 10vw;
+        width: 10vw;
+    }
+    
+    /* NAV BAR */
+    .ceg-nav-wrapper>.columns {
+        height: 12.8vw;
+    }
+    .ceg-menu {
+        position: relative;
+        z-index: 10;
+        background: rgba(255, 255, 255, .9);
+    }
+    .ceg-fixed-nav.ceg-menu { /* <---- FIXED */
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .ceg-menu .ceg-menu-header {
+        margin: 0;
+        padding: 3.5vw 0;
+        width:100%;
+    }
+    .ceg-fixed-nav.ceg-menu .ceg-menu-header {  /* <---- FIXED */
+        margin: 0;
+    }
+    .ceg-menu .ceg-menu-header span {
+		font-size: 5vw;
+	    line-height: 6vw;
+	    margin-left: 2vw;
+	    font-weight: bold;
+    }
+    .ceg-menu .ceg-menu-header-plus-minus {
+	    right: 3vw;
+	    top: 3.7vw;
+	    background-size: cover;
+	    width: 5vw;
+	    height: 5vw;
+    }
+    .ceg-menu.expanded .ceg-menu-header-plus-minus {
+        background-position-x: -5vw;
+    }
+    .menu-top-margin {
+        margin-top: 1vw;
+    }
+    .ceg-menu a {
+        display: block;
+        margin: 0;
+        padding: 0 0 12vw ;
+        width: 100%;
+    }
+    .ceg-menu ul {
+        margin: 12vw 0 0;
+    }
+    .ceg-menu ul.second {
+        margin: 0;
+    }
+    .ceg-menu li {
+        line-height: 1;
+        margin-top: 0;
+    }
+    .ceg-menu .ceg-menu-content {
+        position: relative;
+        top: 0;
+        background: none;
+        text-align: left;
+        width: 100%;
+        font-size: 5vw;
+        padding-top: 4vw;
+        max-height: 95vh;
+        overflow-y: scroll;
+    }
+    .ceg-menu-content-left,
+    .ceg-menu-content-right {
+        margin: 0;
+        padding: 0 3.125% 0;
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    .ceg-menu-content-left {
+        padding-top: 7vw;
+    }
+    .ceg-menu a.ceg-menu-back-to-main {
+        padding: 2vw 0 10vh;
+    }
+    
+    /* HERO */
+    .ceg-hero {
+        margin-bottom: 12vw;
+        width:100%;
+    }
+    .ceg-hero img {
+        padding-top: 7vw;
+    }
+    .ceg-hero-text p {
+        font-size: 5vw;
+        line-height: 8vw;
+        margin-bottom: 13vw;
+    }
+    
+       /*---------------------*/
+      /*      MOBILE         */
+     /*  IMAGE/TEXT PANELS  */
+    /*---------------------*/
+    
+    .ceg-image-text {
+        margin-bottom: 0;
+    }
+    .ceg-image-text ul {
+        margin: 0 0 1.5vw 6vw;
+    }
+    .ceg-image-link img,
+    .ceg-image-text img {
+        width: 100%;
+        margin-bottom: 5vw;
+    }
+    .ceg-image-link p,
+    .ceg-image-text p {
+        font-size: 4.4vw;
+        line-height: 6.6vw;
+        margin-bottom: 1.5vw;
+    }
+    .ceg-image-text p {
+        padding-left: 3.5vw;
+        padding-right: 3.5vw;
+    }
+    .ceg-image-text ul {
+        margin: 0 3.5vw 1.6vw 9vw;
+        font-size: 4.4vw;
+        line-height: 6.6vw;
+    }
+    .ceg-image-text  li {
+        padding-left: 1.6vw;
+    }
+    #bd .row.ceg-image-text.ce-mobile-collapse .small-12 {
+        padding-bottom: 8vw;
+    }
+    .ceg-image-link a p {
+        min-height: 15vw;
+        font-weight: bolder;
+    }
+
+    .ceg-links a {
+        line-height: 5.5vw;
+    }
+    .ceg-tip {
+        margin-bottom: 3.5vw;
+    }
+    .ceg-tip p {
+        font-size: 4.2vw;
+        line-height: 6.3vw;
+        padding: 3vw 9%;
+    }
+    
+    
+    /* ADJUSTMENTS */
+    
+    .ceg-w582.button {
+        width: 90vw;
+    }
+    #bd .row.ceg-t35 {
+        padding-top: 7vw;
+    }
+    .ceg-b16 {
+        margin-bottom: 3vw;
+    }
+    .ceg-b24 {
+        margin-bottom: 5vw;
+    }
+    .ceg-b32 {
+        margin-bottom: 6vw;
+    }
+    .ceg-b58 {
+        margin-bottom: 12vw;
+    }
+    .ceg-mobile-b58 {
+        margin-top: -5vw;
+        margin-bottom: 16vw;
+    }
+    .ceg-b64 {
+        margin-bottom: 13vw;
+    }
+    .bullet-list{
+        margin-left:20px;
+        font-size: 4.4vw;
+        line-height: 6.6vw;
+    }
+    .gym-bag-list{
+
+    }
+}

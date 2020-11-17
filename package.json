@@ -1,0 +1,193 @@
+{
+  "name": "@marketing-campaigns/maternity-clothing-guide",
+  "description": "",
+  "version": "0.13.0",
+  "repository": {
+    "type": "git",
+    "url": "git@code.devops.fds.com:polaris/campaign/maternity-clothing-guide.git"
+  },
+  "config": {
+    "environment": [
+      {
+        "name": "key1",
+        "local": {
+          "mcom": "value1",
+          "bcom": "value2"
+        },
+        "prod": {
+          "mcom": "__VALUE3__",
+          "bcom": "__VALUE4__"
+        }
+      },
+      {
+        "name": "XAPI_HOST",
+        "local": {
+          "mcom": "https://mcom.xapi.com",
+          "bcom": "https://bcom.xapi.com"
+        },
+        "prod": {
+          "mcom": "__VALUE5__",
+          "bcom": "__VALUE6__"
+        }
+      }
+    ],
+    "pages": [
+      {
+        "path": "/",
+        "template": "main",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": true,
+        "tags": {
+          "description": "When putting together a maternity outfit, look for pieces that combine comfort & style. We've broken down essential pieces needed for each stage of your pregnancy.",
+          "canonical": "https://www.macys.com/p/maternity-clothing-guide/",
+          "robots": "index, follow",
+          "title": "Best Maternity Clothes - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "maternityclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/when-to-buy-maternity-clothes/",
+        "template": "when-to-buy-maternity-clothes",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": true,
+        "tags": {
+          "description": "As your pregnancy develops, so do your maternity style options. Get ideas for clothing in each trimester.",
+          "canonical": "https://www.macys.com/p/when-to-buy-maternity-clothes/",
+          "robots": "index, follow",
+          "title": "When to Buy Maternity Clothes - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "whentobuymaternityclothes.maternityclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/what-maternity-clothes-do-I-really-need/",
+        "template": "what-maternity-clothes-do-I-really-need",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": true,
+        "tags": {
+          "description": "With a few basic maternity items, you can create a versitle wardrobe. Get our suggestions for maternity basics. ",
+          "canonical": "https://www.macys.com/p/what-maternity-clothes-do-I-really-need/",
+          "robots": "index, follow",
+          "title": "Maternity Basics - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "whatmaternityclothesdoIreallyneed.maternityclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/nursing-bra-size-guide/",
+        "template": "nursing-bra-size-guide",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": true,
+        "tags": {
+          "description": "Get a great fit with the right nursing bra size, including plus size nursing bras. Our size guide includes advice about nursing sports bras and much more!",
+          "canonical": "https://www.macys.com/p/nursing-bra-size-guide/",
+          "robots": "index, follow",
+          "title": "Nursing Bra Size - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "nursingbrasizeguide.maternityclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/what-to-wear-after-having-a-baby/",
+        "template": "what-to-wear-after-having-a-baby",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": true,
+        "tags": {
+          "description": "Feel beautiful in your body with postpartum clothes, including styles of nursing clothes. During these special days, feel comfortable and look great!",
+          "canonical": "https://www.macys.com/p/what-to-wear-after-having-a-baby/",
+          "robots": "index, follow",
+          "title": "Postpartum Clothes - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "whattowearafterhavingababy.maternityclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/best-maternity-clothing-brands/",
+        "template": "best-maternity-clothing-brands",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": true,
+        "tags": {
+          "description": "As you create your maternity style, let us help you find the brands you'll love. Read Macy's advice for best maternity brands.",
+          "canonical": "https://www.macys.com/p/best-maternity-clothing-brands/",
+          "robots": "index, follow",
+          "title": "Best Maternity Brands - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "bestmaternityclothingbrands.maternityclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/what-to-wear-to-your-baby-shower/",
+        "template": "what-to-wear-to-your-baby-shower",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": true,
+        "tags": {
+          "description": "The shower is a special milestone in your pregnancy. Get our advice on maternity styles for your baby shower.",
+          "canonical": "https://www.macys.com/p/mwhat-to-wear-to-your-baby-shower/",
+          "robots": "index, follow",
+          "title": "Maternity Dresses for a Baby Shower - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "whattoweartoyourbabyshower.maternityclothingguide",
+          "categoryID": "standard"
+        }
+      },
+      {
+        "path": "/best-shoes-for-pregnancy/",
+        "template": "best-shoes-for-pregnancy",
+        "autoHeader": true,
+        "autoFooter": true,
+        "quickview": true,
+        "tags": {
+          "description": "Your feet need TLC during your pregnancy. Read our tips on how to choose the best pregnancy shoes.",
+          "canonical": "https://www.macys.com/p/best-shoes-for-pregnancy/",
+          "robots": "index, follow",
+          "title": "Pregnancy Shoes - Macy's"
+        },
+        "coremetrics": {
+          "pageType": "staticpages",
+          "pageId": "bestshoesforpregnancy.maternityclothingguide",
+          "categoryID": "standard"
+        }
+      }
+    ],
+    "macysCliVersion": "1.293.0"
+  },
+  "engines": {
+    "node": "8.x",
+    "npm": "5.x"
+  },
+  "main": "src/maternity-clothing-guide.js",
+  "devDependencies": {
+    "@core/dev-server": "^1.0.0",
+    "@core/lib": "^1.0.0",
+    "@core/server": "^1.0.0",
+    "lodash": "^4.17.4"
+  }
+}
